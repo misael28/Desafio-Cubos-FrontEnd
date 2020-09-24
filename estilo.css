@@ -1,0 +1,344 @@
+body{
+    background-color:#1D2226;
+}
+
+.cabecalho{
+    background-color: #0F1C26;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 104px;
+    min-width: 100%;
+}
+
+
+.cabecalho-0{
+    align-self: center;
+}
+
+.cabecalho-menu-1 img{
+    padding-left: 1em;
+}
+
+
+.cabecalho-1{
+    align-self: center;
+}
+.cabecalho input{
+    background-color: #0F1C26;
+    text-decoration-color: white;
+    border-color: #0F1C26;
+    color: whitesmoke;
+    width: 456px;
+    height: 56px;
+    
+}
+
+.cabecalho input ::placeholder{
+    color:white;
+   
+}
+
+.cabecalho-menu-1{
+    color:white;
+    align-self: center;
+}
+
+.cabecalho-menu-1 img{
+    margin-right: 1em;
+}
+
+.cabecalho-menu-2{
+    color:white;
+    align-self: center;
+}
+
+.cabecalho-menu-2 img{
+    margin-right: 1em;
+}
+.cabecalho-user{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    align-self: center;
+}
+.cabecalho-user img{
+    margin-left: 1em;
+    height: 56px;
+}
+.cabecalho-user label{
+    align-self: center;
+}
+
+.corpo{
+    margin-top: 3em;
+/*    border:1px solid white;*/
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content{
+/*    border:1px solid white;*/
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 937px;
+    max-height: 100%;
+}
+
+
+
+.promo{
+    display: flex;
+    justify-content: space-between;
+    height: 119px;
+    background: url("6.png");
+    
+}
+
+.promo-texto{
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 120 px;
+    justify-content: space-around;
+
+    flex-direction: row;
+}
+
+.promo-texto-1{
+    align-self: start;
+}
+
+.promo-texto-1 span{
+    font-family: Quantico;
+    font-size: 30px;
+}
+
+.promo-money{
+    align-self: center;
+}
+
+.top-filmes{
+    width:  937px;
+    height: 350px;;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/* Inside Auto Layout */
+    order: 1;
+    align-self: center;
+    margin-top: 40px;
+/*    color:white;*/
+/*    border: 1px solid white;*/
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.top-filmes-1{
+    width: 122px;
+    height: 36px;
+    color:white;
+/*    border: 1px solid white;*/
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;  
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: static;   
+    width: 937px;
+    height: 300px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/* Inside Auto Layout */
+    order: 1;
+    align-self: center;
+    margin-top: 2px;
+    color:white;
+/*    border: 1px solid white;*/
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20;
+    margin-left: 0px;
+
+}
+
+/* Elementos de cada filme*/
+.card{
+    
+    width: 168px;
+    height: 301px;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
+.card-img {
+    width: 168px;
+    height: 301px;
+    background: center;
+    transform: scale(1.01);
+}
+
+.card button{
+    background: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+    text-decoration: none;
+    color:white;
+    width:150px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 9px;
+    border: 1px solid #A785ED; 
+}
+
+.star1{
+    position: relative;
+    width: 8px;
+    height: 8px;
+    left: 130px;
+    bottom: 30px;
+}
+
+.star2{
+    position: absolute;
+    top:0;
+}
+
+.filmex{
+    position: absolute;
+    bottom:0;
+    font-size: 16px;
+    margin-left:6px;
+    font-weight: bold;
+}
+
+.nota{
+    position: absolute;
+    bottom:0;
+    font-size: 16px;
+    margin-left:140px;
+    font-weight: bold;
+}
+
+/* final aqui card */
+
+
+.filmes{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: static;   
+    width: 937px;
+    height: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/* Inside Auto Layout */
+    order: 1;
+    align-self: center;
+    margin-top: 40px;
+    color:white;
+/*    border: 1px solid white;*/
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.filmes-1-button button{
+    background: rgba(225, 131, 200, 0.2);
+    border: 2px solid #E183C8;
+    box-sizing: border-box;
+    width: 168px;
+    height: 38px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+    text-align: center;
+    color: #E183C8;
+    margin:5px
+}
+
+.sacola{
+    width: 312px;
+    max-height: 100%;
+    right: 10px;
+    background-color: #0F1C26;
+    align-self: start;
+}
+
+.sacola-1{
+    width: 312px;
+    height: 72px;
+    background: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+    color:white;
+    text-align: center;
+}
+
+.sacola-2{
+    width: 281px;
+    height: 36px;
+    color:white;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+/* identical to box height, or 36px */
+    text-align: center;
+  
+}
+
+.sacola-3{
+    width: 281px;
+    height: 24px;
+    left: 16px;
+    top: 146px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+/* identical to box height, or 24px */
+    text-align: center;
+    color: #FDFDFD;
+    opacity: 0.8;
+}
+
+.sacola-4{
+    position: relative;
+}
+.sacola-4 input{
+    width: 280px;
+    height: 40px;
+    background: #0B1217;
+}
+
+.sacola-4 img{
+    position: relative;
+    right:20px
+}
+
+.sacola-carrinho-x img{
+    width: 43px;
+    height: 67px;
+    text-decoration: none;
+}
+
